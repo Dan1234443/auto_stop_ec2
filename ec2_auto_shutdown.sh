@@ -1,4 +1,4 @@
-#!/bin/bash
+ACTIVE_USERS=$(who | grep pts | wc -l)#!/bin/bash
 
 # Author: Dan-Herete Agha
 # Project: EC2 Auto Shutdown Script
