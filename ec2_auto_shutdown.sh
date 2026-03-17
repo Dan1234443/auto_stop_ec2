@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Author: Dan-Herete Agha
+# Project: EC2 Auto Shutdown Script
+# Description: Automatically stops EC2 instance when SSH sessions ends
+
 # Count active SSH sessions
 ACTIVE_USERS=$(who | grep pts | wc -l)
 
