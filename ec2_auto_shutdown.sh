@@ -2,7 +2,7 @@
 
 echo "Script started at $(date)" >> /home/ubuntu/script/debug.log
 
-sleep 15
+sleep 5
 
 REGION="us-east-1"
 
@@ -20,7 +20,7 @@ if [ "$ACTIVE_USERS" -le 1 ]; then
 
     echo "Potential logout detected. Waiting..." >> /home/ubuntu/script/debug.log
 
-    sleep 60
+    sleep 10
 
     ACTIVE_USERS=$(who | wc -l)
 
