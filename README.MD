@@ -1,4 +1,4 @@
-#  EC2 Auto Shutdown on SSH Logout
+#  EC2 Auto Shutdown on SSH Logout (EVENT-DRIVEN AUTOMATION)
 
 ## Overview
 
