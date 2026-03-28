@@ -276,3 +276,46 @@ Stopping instance...
     ]
 }
 Shutdown command executed.
+Script started at Wed Mar 25 15:08:00 UTC 2026
+Active SSH sessions: 2
+Still active users
+Script started at Wed Mar 25 15:15:53 UTC 2026
+Active SSH sessions: 1
+Potential logout detected. Waiting...
+Stopping instance...
+{
+    "StoppingInstances": [
+        {
+            "InstanceId": "i-06c010a7b904b4847",
+            "CurrentState": {
+                "Code": 64,
+                "Name": "stopping"
+            },
+            "PreviousState": {
+                "Code": 16,
+                "Name": "running"
+            }
+        }
+    ]
+}
+Shutdown command executed.
+Script started at Fri Mar 27 11:13:08 UTC 2026
+Active SSH sessions: 1
+Potential logout detected. Waiting...
+Stopping instance...
+{
+    "StoppingInstances": [
+        {
+            "InstanceId": "i-06c010a7b904b4847",
+            "CurrentState": {
+                "Code": 64,
+                "Name": "stopping"
+            },
+            "PreviousState": {
+                "Code": 16,
+                "Name": "running"
+            }
+        }
+    ]
+}
+Shutdown command executed.
