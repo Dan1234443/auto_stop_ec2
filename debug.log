@@ -339,3 +339,22 @@ Stopping instance...
     ]
 }
 Shutdown command executed.
+Script started at Sat Mar 28 20:14:09 UTC 2026
+Active SSH sessions: 1
+Potential logout detected. Waiting...
+Stopping instance...
+{
+    "StoppingInstances": [
+        {
+            "InstanceId": "i-06c010a7b904b4847",
+            "CurrentState": {
+                "Code": 64,
+                "Name": "stopping"
+            },
+            "PreviousState": {
+                "Code": 16,
+                "Name": "running"
+            }
+        }
+    ]
+}
